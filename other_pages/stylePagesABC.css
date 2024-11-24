@@ -1,0 +1,62 @@
+#method-A > h3 {
+    padding: 15px 0 15px 0;
+    margin-left: 15px;
+}
+
+#info-exercise-container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    background-color: #0000006d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-exercise{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    height: auto;
+    width: 80%;
+    background-color: var(--cor2);
+}
+
+#info-exercise > h2{
+    text-align: center;
+    margin: 5px 0 5px 0;
+}
+
+#info-exercise-description{
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+#info-exercise-description > p{
+    margin: 0 20px 0px 20px;
+    text-align: justify;
+}
+
+#info-exercise-video{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+iframe{
+    height: 200px;
+    width:  400px;
+}
+
+#info-exercise-muscles{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 10px 0;
+    height: auto;
+    align-items: center;
+}

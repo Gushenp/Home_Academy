@@ -1,0 +1,86 @@
+:root{
+    --cor1: #bb0000;
+    --cor2: #f0f0f0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: var(--cor2);
+}
+
+#principal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    min-height: 50px;
+    max-height: 100px;
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+#principal-header > h2{
+    margin-left: 15px;
+}
+
+#principal-nav > ul{
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin-right: 15px;
+    list-style: none;
+}
+
+#principal-nav > ul > li > a{
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--cor2);
+    padding: 3px;
+    border-radius: 3px;
+    transition: color 1s, background-color 0.5s;
+}
+
+#principal-nav > ul > li > a:hover{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    transition: color 1s, background-color 0.5s;
+}
+
+#training-methods-container{
+    height: max-content;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#training-methods-container > h2 {
+    padding: 15px 0 15px 0;
+    margin-left: 15px;
+}
+
+#training-methods{
+    display: flex;
+    flex-direction: row;
+}
+
+.methods{
+    min-height: 120px;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 8px;
+    background: var(--cor1);
+}
